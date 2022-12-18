@@ -3,6 +3,7 @@ Operate between matrices!
 
 This is an **exercise** where pointers and dynamic memory were practiced.
 It only allows positive integers to be input, otherwise the program will break.
+Laplace expansion was used for multiplying two matrices, by making a O(n3) algorithm.
 
 # Execution
 1. Cd this folder wherever you left it
