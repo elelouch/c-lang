@@ -1,0 +1,9 @@
+#+title: Readme
+
+*   Kruskal
+    This algorithm uses a disjoint set data structure forming connected sets of vertices and merging two sets if an edge has vertices that are not part of the same sets
+**  Compilation
+    #+begin_src org :eval never-export
+        gcc -Wall kruskal.h main.c funciones.c
+    #+end_src
+    The user will have to input a KM graph, M being the amount of vertices that the user choose. The vertices amount can be changed on the header file.

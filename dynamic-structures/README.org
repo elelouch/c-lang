@@ -1,0 +1,7 @@
+#+title: Dynamic Structures On C
+#+AUTHOR: Elias Rojas
+This repo was made with love, it's just some data structures implemented on the language, will add more sooner o later.
+** Execution
+#+begin_src org :eval never-export
+gcc main.c linked-list.c queue.c stack.c trees.c -Wall
+#+end_src
