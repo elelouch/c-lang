@@ -25,7 +25,6 @@ int main(int argc, char *argv[]){
         return -1;
     }
     option = getopt(argc,argv,"edi");
-
     rootdir = opendir(argv[LAST_ARG]);
     
     while((child_entity = readdir(rootdir))){
@@ -35,7 +34,6 @@ int main(int argc, char *argv[]){
         // now the directory's path is catenated to the name
         // of the child entity
         newpath = cat(argv[LAST_ARG],pivot); 
-
         // asks for the status of the desired file entity
         stat(newpath,&child_stat);
         free(pivot);
